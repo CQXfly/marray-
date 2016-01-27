@@ -10,12 +10,25 @@
 
 @interface ViewController ()
 
+@property (nonatomic,strong,readonly) UIImage *image;
+
 @end
 
 @implementation ViewController
 
+@synthesize image;
+
+- (void)setImage:(UIImage *)image {
+    
+}
+
+- (UIImage *)image {
+    return [UIImage new];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

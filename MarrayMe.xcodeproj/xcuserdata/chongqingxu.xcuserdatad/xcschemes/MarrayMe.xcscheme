@@ -5,6 +5,23 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES"
+            hideIssues = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2A79FC81C575CB000F6EC82"
+               BuildableName = "MarrayMe.app"
+               BlueprintName = "MarrayMe"
+               ReferencedContainer = "container:MarrayMe.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +29,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2A79FE11C575CB000F6EC82"
+               BuildableName = "MarrayMeTests.xctest"
+               BlueprintName = "MarrayMeTests"
+               ReferencedContainer = "container:MarrayMe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2A79FEC1C575CB000F6EC82"
+               BuildableName = "MarrayMeUITests.xctest"
+               BlueprintName = "MarrayMeUITests"
+               ReferencedContainer = "container:MarrayMe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2A79FC81C575CB000F6EC82"
+            BuildableName = "MarrayMe.app"
+            BlueprintName = "MarrayMe"
+            ReferencedContainer = "container:MarrayMe.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +72,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2A79FC81C575CB000F6EC82"
+            BuildableName = "MarrayMe.app"
+            BlueprintName = "MarrayMe"
+            ReferencedContainer = "container:MarrayMe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +91,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2A79FC81C575CB000F6EC82"
+            BuildableName = "MarrayMe.app"
+            BlueprintName = "MarrayMe"
+            ReferencedContainer = "container:MarrayMe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
