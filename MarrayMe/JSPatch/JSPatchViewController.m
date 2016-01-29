@@ -8,6 +8,27 @@
 
 #import "JSPatchViewController.h"
 
+
 @implementation JSPatchViewController
 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"JSPatch";
+    
+    
+}
+
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self jsPatchAddView];
+    
+}
+
+- (void)jsPatchAddView {
+    
+}
 @end

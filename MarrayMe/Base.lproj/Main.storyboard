@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="1577" y="-600"/>
         </scene>
-        <!--View Controller-->
+        <!--Patch View Controller-->
         <scene sceneID="6cf-qD-LnJ">
             <objects>
-                <viewController id="mP4-3O-VlR" sceneMemberID="viewController">
+                <viewController id="mP4-3O-VlR" customClass="JSPatchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ShQ-0t-d1m"/>
                         <viewControllerLayoutGuide type="bottom" id="m2d-ZX-Gdx"/>

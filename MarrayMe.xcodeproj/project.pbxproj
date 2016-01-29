@@ -12,11 +12,12 @@
 		C26F063A1C5B5B0500DAF4D0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F062B1C5B5B0500DAF4D0 /* KVOViewController.m */; };
 		C26F063B1C5B5B0500DAF4D0 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F062D1C5B5B0500DAF4D0 /* TestModel.m */; };
 		C26F063C1C5B5B0500DAF4D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */; };
-		C26F063D1C5B5B0500DAF4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06311C5B5B0500DAF4D0 /* main.m */; };
 		C26F063E1C5B5B0500DAF4D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06331C5B5B0500DAF4D0 /* ViewController.m */; };
 		C26F063F1C5B5B0500DAF4D0 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06361C5B5B0500DAF4D0 /* PPSSignatureView.m */; };
 		C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */; };
-		C2A79FCE1C575CB000F6EC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FCD1C575CB000F6EC82 /* main.m */; };
+		C26F06421C5B5B9400DAF4D0 /* help.js in Resources */ = {isa = PBXBuildFile; fileRef = C26F06411C5B5B9400DAF4D0 /* help.js */; };
+		C26F06461C5B60A900DAF4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06451C5B60A900DAF4D0 /* main.m */; };
+		C2A2E0771C5B707B00AC88B0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2E0761C5B707B00AC88B0 /* File.swift */; };
 		C2A79FD71C575CB000F6EC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD51C575CB000F6EC82 /* Main.storyboard */; };
 		C2A79FD91C575CB000F6EC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD81C575CB000F6EC82 /* Assets.xcassets */; };
 		C2A79FDC1C575CB000F6EC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FDA1C575CB000F6EC82 /* LaunchScreen.storyboard */; };
@@ -53,15 +54,17 @@
 		C26F062D1C5B5B0500DAF4D0 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		C26F062F1C5B5B0500DAF4D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C26F06311C5B5B0500DAF4D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C26F06321C5B5B0500DAF4D0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C26F06331C5B5B0500DAF4D0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C26F06351C5B5B0500DAF4D0 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
 		C26F06361C5B5B0500DAF4D0 /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
 		C26F06371C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
 		C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
+		C26F06411C5B5B9400DAF4D0 /* help.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = help.js; sourceTree = "<group>"; };
+		C26F06451C5B60A900DAF4D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A2E0751C5B707B00AC88B0 /* MarrayMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarrayMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2A2E0761C5B707B00AC88B0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C2A79FC91C575CB000F6EC82 /* MarrayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarrayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A79FCD1C575CB000F6EC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2A79FD61C575CB000F6EC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2A79FD81C575CB000F6EC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2A79FDB1C575CB000F6EC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,8 +123,11 @@
 		C26F06261C5B5B0500DAF4D0 /* JSPatch */ = {
 			isa = PBXGroup;
 			children = (
+				C26F06411C5B5B9400DAF4D0 /* help.js */,
 				C26F06271C5B5B0500DAF4D0 /* JSPatchViewController.h */,
 				C26F06281C5B5B0500DAF4D0 /* JSPatchViewController.m */,
+				C2A2E0761C5B707B00AC88B0 /* File.swift */,
+				C2A2E0751C5B707B00AC88B0 /* MarrayMe-Bridging-Header.h */,
 			);
 			path = JSPatch;
 			sourceTree = "<group>";
@@ -142,7 +148,6 @@
 			children = (
 				C26F062F1C5B5B0500DAF4D0 /* AppDelegate.h */,
 				C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */,
-				C26F06311C5B5B0500DAF4D0 /* main.m */,
 				C26F06321C5B5B0500DAF4D0 /* ViewController.h */,
 				C26F06331C5B5B0500DAF4D0 /* ViewController.m */,
 			);
@@ -201,7 +206,7 @@
 		C2A79FCC1C575CB000F6EC82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2A79FCD1C575CB000F6EC82 /* main.m */,
+				C26F06451C5B60A900DAF4D0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				C2A79FDC1C575CB000F6EC82 /* LaunchScreen.storyboard in Resources */,
 				C2A79FD91C575CB000F6EC82 /* Assets.xcassets in Resources */,
 				C2A79FD71C575CB000F6EC82 /* Main.storyboard in Resources */,
+				C26F06421C5B5B9400DAF4D0 /* help.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,12 +413,12 @@
 			files = (
 				C26F063E1C5B5B0500DAF4D0 /* ViewController.m in Sources */,
 				C26F063F1C5B5B0500DAF4D0 /* PPSSignatureView.m in Sources */,
-				C26F063D1C5B5B0500DAF4D0 /* main.m in Sources */,
 				C26F063B1C5B5B0500DAF4D0 /* TestModel.m in Sources */,
-				C2A79FCE1C575CB000F6EC82 /* main.m in Sources */,
 				C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */,
 				C26F063C1C5B5B0500DAF4D0 /* AppDelegate.m in Sources */,
 				C26F06391C5B5B0500DAF4D0 /* JSPatchViewController.m in Sources */,
+				C26F06461C5B60A900DAF4D0 /* main.m in Sources */,
+				C2A2E0771C5B707B00AC88B0 /* File.swift in Sources */,
 				C26F063A1C5B5B0500DAF4D0 /* KVOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,11 +561,14 @@
 			baseConfigurationReference = 9B16854B944C3ABB03843BA0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MarrayMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QX.MarrayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarrayMe/JSPatch/MarrayMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -569,11 +578,13 @@
 			baseConfigurationReference = 7D4CB1AFFC5472FE28010684 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MarrayMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QX.MarrayMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarrayMe/JSPatch/MarrayMe-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
