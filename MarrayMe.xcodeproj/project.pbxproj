@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A398A351A21E5EDA3C06DD75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D84333E921455439471B6BD /* libPods.a */; };
-		C235842E1C58A3F9005E80E5 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C235842D1C58A3F9005E80E5 /* PPSSignatureView.m */; };
-		C26F061E1C5B4D8C00DAF4D0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */; };
-		C26F06211C5B4DA000DAF4D0 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06201C5B4DA000DAF4D0 /* TestModel.m */; };
+		C26F06391C5B5B0500DAF4D0 /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06281C5B5B0500DAF4D0 /* JSPatchViewController.m */; };
+		C26F063A1C5B5B0500DAF4D0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F062B1C5B5B0500DAF4D0 /* KVOViewController.m */; };
+		C26F063B1C5B5B0500DAF4D0 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F062D1C5B5B0500DAF4D0 /* TestModel.m */; };
+		C26F063C1C5B5B0500DAF4D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */; };
+		C26F063D1C5B5B0500DAF4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06311C5B5B0500DAF4D0 /* main.m */; };
+		C26F063E1C5B5B0500DAF4D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06331C5B5B0500DAF4D0 /* ViewController.m */; };
+		C26F063F1C5B5B0500DAF4D0 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06361C5B5B0500DAF4D0 /* PPSSignatureView.m */; };
+		C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */; };
 		C2A79FCE1C575CB000F6EC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FCD1C575CB000F6EC82 /* main.m */; };
-		C2A79FD11C575CB000F6EC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FD01C575CB000F6EC82 /* AppDelegate.m */; };
-		C2A79FD41C575CB000F6EC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FD31C575CB000F6EC82 /* ViewController.m */; };
 		C2A79FD71C575CB000F6EC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD51C575CB000F6EC82 /* Main.storyboard */; };
 		C2A79FD91C575CB000F6EC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD81C575CB000F6EC82 /* Assets.xcassets */; };
 		C2A79FDC1C575CB000F6EC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FDA1C575CB000F6EC82 /* LaunchScreen.storyboard */; };
 		C2A79FE71C575CB000F6EC82 /* MarrayMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FE61C575CB000F6EC82 /* MarrayMeTests.m */; };
 		C2A79FF21C575CB000F6EC82 /* MarrayMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FF11C575CB000F6EC82 /* MarrayMeUITests.m */; };
-		C2CAAD1E1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CAAD1D1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +45,23 @@
 		2D84333E921455439471B6BD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CB1AFFC5472FE28010684 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9B16854B944C3ABB03843BA0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C235842C1C58A3F9005E80E5 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
-		C235842D1C58A3F9005E80E5 /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
-		C26F061C1C5B4D8C00DAF4D0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
-		C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
-		C26F061F1C5B4DA000DAF4D0 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
-		C26F06201C5B4DA000DAF4D0 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		C26F06271C5B5B0500DAF4D0 /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
+		C26F06281C5B5B0500DAF4D0 /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
+		C26F062A1C5B5B0500DAF4D0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		C26F062B1C5B5B0500DAF4D0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		C26F062C1C5B5B0500DAF4D0 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		C26F062D1C5B5B0500DAF4D0 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		C26F062F1C5B5B0500DAF4D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26F06311C5B5B0500DAF4D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26F06321C5B5B0500DAF4D0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C26F06331C5B5B0500DAF4D0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C26F06351C5B5B0500DAF4D0 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
+		C26F06361C5B5B0500DAF4D0 /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
+		C26F06371C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
+		C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
 		C2A79FC91C575CB000F6EC82 /* MarrayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarrayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A79FCD1C575CB000F6EC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2A79FCF1C575CB000F6EC82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C2A79FD01C575CB000F6EC82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2A79FD21C575CB000F6EC82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2A79FD31C575CB000F6EC82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2A79FD61C575CB000F6EC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2A79FD81C575CB000F6EC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2A79FDB1C575CB000F6EC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,8 +72,6 @@
 		C2A79FED1C575CB000F6EC82 /* MarrayMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarrayMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A79FF11C575CB000F6EC82 /* MarrayMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarrayMeUITests.m; sourceTree = "<group>"; };
 		C2A79FF31C575CB000F6EC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2CAAD1C1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
-		C2CAAD1D1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,26 +117,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C235842B1C58A3DD005E80E5 /* Helper */ = {
+		C26F06261C5B5B0500DAF4D0 /* JSPatch */ = {
 			isa = PBXGroup;
 			children = (
-				C235842C1C58A3F9005E80E5 /* PPSSignatureView.h */,
-				C235842D1C58A3F9005E80E5 /* PPSSignatureView.m */,
-				C2CAAD1C1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.h */,
-				C2CAAD1D1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.m */,
+				C26F06271C5B5B0500DAF4D0 /* JSPatchViewController.h */,
+				C26F06281C5B5B0500DAF4D0 /* JSPatchViewController.m */,
 			);
-			name = Helper;
+			path = JSPatch;
 			sourceTree = "<group>";
 		};
-		C26F061B1C5B4D1300DAF4D0 /* FaceBook KVO */ = {
+		C26F06291C5B5B0500DAF4D0 /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
-				C26F061C1C5B4D8C00DAF4D0 /* KVOViewController.h */,
-				C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */,
-				C26F061F1C5B4DA000DAF4D0 /* TestModel.h */,
-				C26F06201C5B4DA000DAF4D0 /* TestModel.m */,
+				C26F062A1C5B5B0500DAF4D0 /* KVOViewController.h */,
+				C26F062B1C5B5B0500DAF4D0 /* KVOViewController.m */,
+				C26F062C1C5B5B0500DAF4D0 /* TestModel.h */,
+				C26F062D1C5B5B0500DAF4D0 /* TestModel.m */,
 			);
-			name = "FaceBook KVO";
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		C26F062E1C5B5B0500DAF4D0 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				C26F062F1C5B5B0500DAF4D0 /* AppDelegate.h */,
+				C26F06301C5B5B0500DAF4D0 /* AppDelegate.m */,
+				C26F06311C5B5B0500DAF4D0 /* main.m */,
+				C26F06321C5B5B0500DAF4D0 /* ViewController.h */,
+				C26F06331C5B5B0500DAF4D0 /* ViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		C26F06341C5B5B0500DAF4D0 /* PPS */ = {
+			isa = PBXGroup;
+			children = (
+				C26F06351C5B5B0500DAF4D0 /* PPSSignatureView.h */,
+				C26F06361C5B5B0500DAF4D0 /* PPSSignatureView.m */,
+				C26F06371C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.h */,
+				C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */,
+			);
+			path = PPS;
 			sourceTree = "<group>";
 		};
 		C2A79FC01C575CB000F6EC82 = {
@@ -159,12 +185,10 @@
 		C2A79FCB1C575CB000F6EC82 /* MarrayMe */ = {
 			isa = PBXGroup;
 			children = (
-				C26F061B1C5B4D1300DAF4D0 /* FaceBook KVO */,
-				C235842B1C58A3DD005E80E5 /* Helper */,
-				C2A79FCF1C575CB000F6EC82 /* AppDelegate.h */,
-				C2A79FD01C575CB000F6EC82 /* AppDelegate.m */,
-				C2A79FD21C575CB000F6EC82 /* ViewController.h */,
-				C2A79FD31C575CB000F6EC82 /* ViewController.m */,
+				C26F06261C5B5B0500DAF4D0 /* JSPatch */,
+				C26F06291C5B5B0500DAF4D0 /* KVOController */,
+				C26F062E1C5B5B0500DAF4D0 /* main */,
+				C26F06341C5B5B0500DAF4D0 /* PPS */,
 				C2A79FD51C575CB000F6EC82 /* Main.storyboard */,
 				C2A79FD81C575CB000F6EC82 /* Assets.xcassets */,
 				C2A79FDA1C575CB000F6EC82 /* LaunchScreen.storyboard */,
@@ -381,13 +405,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CAAD1E1C58A8A0009BC30B /* SignatureViewQuartzQuadratic.m in Sources */,
-				C2A79FD41C575CB000F6EC82 /* ViewController.m in Sources */,
-				C235842E1C58A3F9005E80E5 /* PPSSignatureView.m in Sources */,
-				C2A79FD11C575CB000F6EC82 /* AppDelegate.m in Sources */,
+				C26F063E1C5B5B0500DAF4D0 /* ViewController.m in Sources */,
+				C26F063F1C5B5B0500DAF4D0 /* PPSSignatureView.m in Sources */,
+				C26F063D1C5B5B0500DAF4D0 /* main.m in Sources */,
+				C26F063B1C5B5B0500DAF4D0 /* TestModel.m in Sources */,
 				C2A79FCE1C575CB000F6EC82 /* main.m in Sources */,
-				C26F06211C5B4DA000DAF4D0 /* TestModel.m in Sources */,
-				C26F061E1C5B4D8C00DAF4D0 /* KVOViewController.m in Sources */,
+				C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */,
+				C26F063C1C5B5B0500DAF4D0 /* AppDelegate.m in Sources */,
+				C26F06391C5B5B0500DAF4D0 /* JSPatchViewController.m in Sources */,
+				C26F063A1C5B5B0500DAF4D0 /* KVOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
