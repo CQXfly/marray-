@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A398A351A21E5EDA3C06DD75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D84333E921455439471B6BD /* libPods.a */; };
 		C235842E1C58A3F9005E80E5 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C235842D1C58A3F9005E80E5 /* PPSSignatureView.m */; };
+		C26F061E1C5B4D8C00DAF4D0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */; };
+		C26F06211C5B4DA000DAF4D0 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06201C5B4DA000DAF4D0 /* TestModel.m */; };
 		C2A79FCE1C575CB000F6EC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FCD1C575CB000F6EC82 /* main.m */; };
 		C2A79FD11C575CB000F6EC82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FD01C575CB000F6EC82 /* AppDelegate.m */; };
 		C2A79FD41C575CB000F6EC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A79FD31C575CB000F6EC82 /* ViewController.m */; };
@@ -43,6 +45,10 @@
 		9B16854B944C3ABB03843BA0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C235842C1C58A3F9005E80E5 /* PPSSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSSignatureView.h; sourceTree = "<group>"; };
 		C235842D1C58A3F9005E80E5 /* PPSSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSSignatureView.m; sourceTree = "<group>"; };
+		C26F061C1C5B4D8C00DAF4D0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		C26F061F1C5B4DA000DAF4D0 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		C26F06201C5B4DA000DAF4D0 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		C2A79FC91C575CB000F6EC82 /* MarrayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarrayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A79FCD1C575CB000F6EC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2A79FCF1C575CB000F6EC82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +123,17 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		C26F061B1C5B4D1300DAF4D0 /* FaceBook KVO */ = {
+			isa = PBXGroup;
+			children = (
+				C26F061C1C5B4D8C00DAF4D0 /* KVOViewController.h */,
+				C26F061D1C5B4D8C00DAF4D0 /* KVOViewController.m */,
+				C26F061F1C5B4DA000DAF4D0 /* TestModel.h */,
+				C26F06201C5B4DA000DAF4D0 /* TestModel.m */,
+			);
+			name = "FaceBook KVO";
+			sourceTree = "<group>";
+		};
 		C2A79FC01C575CB000F6EC82 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +159,7 @@
 		C2A79FCB1C575CB000F6EC82 /* MarrayMe */ = {
 			isa = PBXGroup;
 			children = (
+				C26F061B1C5B4D1300DAF4D0 /* FaceBook KVO */,
 				C235842B1C58A3DD005E80E5 /* Helper */,
 				C2A79FCF1C575CB000F6EC82 /* AppDelegate.h */,
 				C2A79FD01C575CB000F6EC82 /* AppDelegate.m */,
@@ -368,6 +386,8 @@
 				C235842E1C58A3F9005E80E5 /* PPSSignatureView.m in Sources */,
 				C2A79FD11C575CB000F6EC82 /* AppDelegate.m in Sources */,
 				C2A79FCE1C575CB000F6EC82 /* main.m in Sources */,
+				C26F06211C5B4DA000DAF4D0 /* TestModel.m in Sources */,
+				C26F061E1C5B4D8C00DAF4D0 /* KVOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
