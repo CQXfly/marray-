@@ -17,6 +17,8 @@
 		C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */; };
 		C26F06421C5B5B9400DAF4D0 /* help.js in Resources */ = {isa = PBXBuildFile; fileRef = C26F06411C5B5B9400DAF4D0 /* help.js */; };
 		C26F06461C5B60A900DAF4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F06451C5B60A900DAF4D0 /* main.m */; };
+		C274C01E1C5F579600C3C73C /* LeafProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274C01C1C5F579600C3C73C /* LeafProgress.swift */; };
+		C274C01F1C5F579600C3C73C /* QXCuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274C01D1C5F579600C3C73C /* QXCuteView.swift */; };
 		C2A2E0771C5B707B00AC88B0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2E0761C5B707B00AC88B0 /* File.swift */; };
 		C2A79FD71C575CB000F6EC82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD51C575CB000F6EC82 /* Main.storyboard */; };
 		C2A79FD91C575CB000F6EC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A79FD81C575CB000F6EC82 /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 		C26F06381C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
 		C26F06411C5B5B9400DAF4D0 /* help.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = help.js; sourceTree = "<group>"; };
 		C26F06451C5B60A900DAF4D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C274C01C1C5F579600C3C73C /* LeafProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafProgress.swift; sourceTree = "<group>"; };
+		C274C01D1C5F579600C3C73C /* QXCuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXCuteView.swift; sourceTree = "<group>"; };
 		C2A2E0751C5B707B00AC88B0 /* MarrayMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarrayMe-Bridging-Header.h"; sourceTree = "<group>"; };
 		C2A2E0761C5B707B00AC88B0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C2A79FC91C575CB000F6EC82 /* MarrayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarrayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +169,23 @@
 			path = PPS;
 			sourceTree = "<group>";
 		};
+		C274C0191C5F573D00C3C73C /* RXSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C274C0201C5F579900C3C73C /* swift 动画 */,
+			);
+			name = RXSwift;
+			sourceTree = "<group>";
+		};
+		C274C0201C5F579900C3C73C /* swift 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C274C01C1C5F579600C3C73C /* LeafProgress.swift */,
+				C274C01D1C5F579600C3C73C /* QXCuteView.swift */,
+			);
+			name = "swift 动画";
+			sourceTree = "<group>";
+		};
 		C2A79FC01C575CB000F6EC82 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +211,7 @@
 		C2A79FCB1C575CB000F6EC82 /* MarrayMe */ = {
 			isa = PBXGroup;
 			children = (
+				C274C0191C5F573D00C3C73C /* RXSwift */,
 				C26F06261C5B5B0500DAF4D0 /* JSPatch */,
 				C26F06291C5B5B0500DAF4D0 /* KVOController */,
 				C26F062E1C5B5B0500DAF4D0 /* main */,
@@ -413,6 +435,8 @@
 			files = (
 				C26F063E1C5B5B0500DAF4D0 /* ViewController.m in Sources */,
 				C26F063F1C5B5B0500DAF4D0 /* PPSSignatureView.m in Sources */,
+				C274C01F1C5F579600C3C73C /* QXCuteView.swift in Sources */,
+				C274C01E1C5F579600C3C73C /* LeafProgress.swift in Sources */,
 				C26F063B1C5B5B0500DAF4D0 /* TestModel.m in Sources */,
 				C26F06401C5B5B0500DAF4D0 /* SignatureViewQuartzQuadratic.m in Sources */,
 				C26F063C1C5B5B0500DAF4D0 /* AppDelegate.m in Sources */,
